@@ -1,145 +1,84 @@
-<!-- Title -->
+[Roadmap](#roadmap) |
+[Documentação](#documentação) |
+[Como Executar](#rodando-localmente) |
+[Projeto](#stack-utilizada) |
+[Next Level](#melhorias) 
 
-<p align="center">
-  <a href="https://github.com/expo/examples">
-    <img alt="create-react-native-app" src="./.gh-assets/banner.svg">
-    <h1 align="center">Create React Native App</h1>
-  </a>
-</p>
+![Logo](https://global-uploads.webflow.com/632c96a9bfec45360c6f8d0a/632dab005bbf2271c32955e4_projects%20-%20nlw%20esports.jpg)
 
-<!-- Header -->
 
-<p align="center">
-  <b>The fastest way to create universal React Native apps</b>
-  <br />
+# NLW eSports - Encontre seu Duo - Mobile React Native
 
-  <p align="center">
-    <!-- iOS -->
-    <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-000.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-    <!-- Android -->
-    <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-000.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-    <!-- Web -->
-    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-000.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-  </p>
-  <p align="center">
-    <a href="https://packagephobia.now.sh/result?p=create-react-native-app">
-      <img alt="the best way to bootstrap a react native app" longdesc="the best way to create a react native app" src="https://flat.badgen.net/packagephobia/install/create-react-native-app" />
-    </a>
-  </p>
-  
-</p>
+- Nome do Evento: NLW eSports
+- Data: De 11 a 18 de setembro de 2022
+- Empresa: Rocketseat
+- Evento ministrado por: Diego Schell Fernandes(Co-fundador e CTO na Rocketseat) e Rodrigo Gonçalves Santana(Educator na Rocketseat)
+- Conteúdo: Construção de uma aplicação para encontrar duos(parceiros para jogar), contando com uma versão mobile(ReactNative) e outra web(React) com um backend desenvolvido em NodeJS
 
-<!-- Body -->
+## Roadmap
 
-```sh
-npx create-react-native-app
+- Criação do projeto com Expo
+- Configurações do projeto
+- Criação dos components React Native
+- Criação das Telas com os components criados previamente
+- Roteamento com React Navigation
+- Integração com o backend em NodeJS
+## Stack utilizada
+React Native, StyleSheet, Expo
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/leokazuyukinagatani/nlw-e-sports-mobile
 ```
 
-Once you're up and running with Create React Native App, visit [this tutorial](https://reactnative.dev/docs/tutorial) for more information on building mobile apps with React.
+Entre no diretório do projeto
 
-<p align="center">
-  <img align="center" alt="Product: demo" src="./.gh-assets/crna.gif" />
-</p>
+```bash
+  cd nlw-e-sports-mobile
+```
 
-## Features
+Instale as dependências
 
-- Native project ready to be built on to your device.
-- Support for unimodules and auto-linking.
-- OTA updates, and Gestures out of the box.
-- Full support for React Native web.
-- Plug-n-play custom templates.
-- Works with the Expo Client app.
+```bash
+  npm install
+```
 
-## Usage
+Inicie o servidor
 
-- `npx create-react-native-app` Create a new native React app.
-- `yarn ios` -- (`expo run:ios`) Build the iOS App (requires a MacOS computer).
-- `yarn android` -- (`expo run:android`) Build the Android App.
-- `yarn web` -- (`expo start:web`) Run the website in your browser.
+```bash
+  npm start
+```
 
-### Templates
 
-By default you create a [bare-workflow React](https://docs.expo.io/bare/exploring-bare-workflow/) project with support for iOS, Android, and web. You can opt to use an example project instead by selecting the "Templates from ..." option. Custom templates can be used with `--template <Example Name or GitHub URL>` option.
+## Documentação
+- Design no Figma disponível no link:  [NLW eSports - Figma](https://www.figma.com/file/rE4POnvSJKxAW0Dmx4Weql/NLW-eSports-(Community)?node-id=0%3A1)
 
-- Use an [example](https://github.com/expo/examples): `npx create-react-native-app -t with-typescript`
-- Use a custom template: `npx create-react-native-app --template https://github.com/someone/my-react-starter` -- Only works with GitHub repos on the master branch.
-- All examples can be modified in the [expo/examples](https://github.com/expo/examples) repo.
 
-## Sections
+## Documentação de cores
+- Colors no Figma disponível no link : [NLW eSports - Figma](https://www.figma.com/file/rE4POnvSJKxAW0Dmx4Weql/NLW-eSports-(Community)?node-id=58%3A424)
 
-- [Usage with Expo Client App](#usage-with-expo-client-app)
-- [Support and Contact](#support-and-contact)
-- [FAQs](#faqs)
-- [Contributing](#contributing)
+## Melhorias
 
-## Usage with Expo Client App
+Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
 
-Expo Client enables you to work with all of the [Components and APIs](https://facebook.github.io/react-native/docs/getting-started) in `react-native`, as well as the [JavaScript APIs](https://docs.expo.io/versions/latest) that the are bundled with the Expo App.
 
-Expo Client supports running any project that doesn't have custom native modules added.
+## Aprendizados
 
-- Download the "Expo Client" app from the Play Store or App Store.
-- Start your project with Expo
-  - Install the CLI `npm i -g expo-cli`
-  - Start the project `expo start`
-- Open the project:
-  - Sign in to expo and the project will appear in the app.
-  - Or point your phone's camera at the QR code in the terminal (press "c" to view it).
+O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
 
-## Support and Contact
+- Utilizar React Native
 
-If you're having issues with Create React Native App, please make sure:
 
-- The issue is not covered in the [Expo Docs](https://docs.expo.io/versions/latest/)
-- There is not already an [open issue](https://github.com/expo/expo-cli/issues) for your particular problem
+## Suporte
 
-If you've checked the documentation and currently open issues, please either [open a new GitHub issue](https://github.com/expo/create-react-native-app/issues/new) or ask a question on [Expo forums](https://forums.expo.io/c/help).
+Para suporte, mande um email para [leokazuyukinagatani@gmail.com](mailto:leokazuyukinagatani@gmail.com?subject=nlw-esports-frontend)
 
-## Contributing
 
-Please see [Contributing guide](https://github.com/expo/expo-cli/blob/master/CONTRIBUTING.md) in the Expo CLI monorepo for instructions on contributing to Expo CLI.
+## Relacionados
 
-### Attribution
+Segue alguns projetos relacionados
 
-The examples feature was inspired by the `templates` system of [create-next-app](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) by the [Vercel](https://vercel.com/) team.
-
-## Related
-
-CRNA is focused on being the fastest way to bootstrap a React Native app without worrying about the native platforms or bundlers required for developing and shipping apps. Other tools provide both an init script (which is slower) and a suite of other tools that can be used for interacting with the project. CRNA is meant to be used with any of the following tools:
-
-- [Expo CLI](https://github.com/expo/expo-cli) by [Expo team](https://expo.io)
-- [Ignite CLI](https://github.com/infinitered/ignite) by [Infinite Red](https://infinite.red/)
-- [React Native Community CLI](https://github.com/react-native-community/cli) by members of [the React Native community](https://github.com/orgs/react-native-community/people)
-
-<!-- Footer -->
-
-## Contributors ✨
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://twitter.com/baconbrix"><img src="https://avatars1.githubusercontent.com/u/9664363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evan Bacon</b></sub></a><br /><a href="https://github.com/expo/create-react-native-app/commits?author=EvanBacon" title="Code">💻</a> <a href="https://github.com/expo/create-react-native-app/commits?author=EvanBacon" title="Documentation">📖</a> <a href="#design-EvanBacon" title="Design">🎨</a> <a href="#maintenance-EvanBacon" title="Maintenance">🚧</a> <a href="https://github.com/expo/create-react-native-app/pulls?q=is%3Apr+reviewed-by%3AEvanBacon" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://expo.io"><img src="https://avatars2.githubusercontent.com/u/90494?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brent Vatne</b></sub></a><br /><a href="https://github.com/expo/create-react-native-app/commits?author=brentvatne" title="Code">💻</a> <a href="https://github.com/expo/create-react-native-app/commits?author=brentvatne" title="Documentation">📖</a> <a href="https://github.com/expo/create-react-native-app/pulls?q=is%3Apr+reviewed-by%3Abrentvatne" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="http://hamzah"><img src="https://avatars0.githubusercontent.com/u/26879042?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hamza Halilovic</b></sub></a><br /><a href="https://github.com/expo/create-react-native-app/commits?author=hamzahalilovic" title="Code">💻</a></td>
-    <td align="center"><a href="https://bycedric.com"><img src="https://avatars2.githubusercontent.com/u/1203991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cedric van Putten</b></sub></a><br /><a href="https://github.com/expo/create-react-native-app/commits?author=byCedric" title="Code">💻</a></td>
-    <td align="center"><a href="https://twitter.com/VilleImmonen"><img src="https://avatars3.githubusercontent.com/u/497214?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ville Immonen</b></sub></a><br /><a href="https://github.com/expo/create-react-native-app/commits?author=fson" title="Code">💻</a> <a href="https://github.com/expo/create-react-native-app/pulls?q=is%3Apr+reviewed-by%3Afson" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/friederbluemle"><img src="https://avatars0.githubusercontent.com/u/743291?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Frieder Bluemle</b></sub></a><br /><a href="https://github.com/expo/create-react-native-app/commits?author=friederbluemle" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+[Awesome README](https://github.com/matiassingers/awesome-readme)
